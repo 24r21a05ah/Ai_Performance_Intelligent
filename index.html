@@ -1,546 +1,354 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- ================= CAREER ================= -->
 
-    <title>PerformanceIQ | AI Performance Intelligence</title>
+<section id="career" class="section">
 
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-<div class="app">
-
-    <!-- SIDEBAR -->
-    <aside class="sidebar">
-
-        <div class="logo">
-            <div class="logo-icon">P</div>
-            <div>
-                <h2>PerformanceIQ</h2>
-                <span>AI Performance Intelligence</span>
-            </div>
-        </div>
-
-        <nav>
-
-            <button class="nav-item active" onclick="showSection('dashboard', this)">
-                <span>⌂</span>
-                Dashboard
-            </button>
-
-            <button class="nav-item" onclick="showSection('profile', this)">
-                <span>◉</span>
-                Performance Profile
-            </button>
-
-            <button class="nav-item" onclick="showSection('skills', this)">
-                <span>◆</span>
-                Skill Assessment
-            </button>
-
-            <button class="nav-item" onclick="showSection('development', this)">
-                <span>↗</span>
-                Development Gaps
-            </button>
-
-            <button class="nav-item" onclick="showSection('career', this)">
-                <span>→</span>
-                Career Growth
-            </button>
-
-            <button class="nav-item" onclick="showSection('consistency', this)">
-                <span>◈</span>
-                Evaluation Consistency
-            </button>
-
-            <button class="nav-item" onclick="showSection('calibration', this)">
-                <span>▦</span>
-                Calibration
-            </button>
-
-        </nav>
-
-        <div class="sidebar-bottom">
-
-            <div class="ai-status">
-                <div class="status-dot"></div>
-                AI Analysis Active
-            </div>
-
-            <div class="user-mini">
-                <div class="avatar">PR</div>
-
-                <div>
-                    <strong>Priya Reddy</strong>
-                    <small>HR Manager • People & Culture</small>
-                </div>
-            </div>
-
-        </div>
-
-    </aside>
-
-
-    <!-- MAIN CONTENT -->
-    <main class="main">
-
-        <!-- TOP BAR -->
-        <header class="topbar">
-
-            <div>
-                <h1 id="pageTitle">Performance Dashboard</h1>
-                <p>Evidence-based insights for fairer performance reviews</p>
-            </div>
-
-            <div class="top-actions">
-
-                <div class="cycle">
-                    <span>Review Cycle</span>
-                    <strong>2026 Annual</strong>
-                </div>
-
-                <div class="notification">6</div>
-
-            </div>
-
-        </header>
-
-
-      <!-- ================= DASHBOARD ================= -->
-
-<section id="dashboard" class="section active-section">
-
-    <div class="welcome">
+    <div class="section-heading">
 
         <div>
-            <span class="eyebrow">AI PERFORMANCE INTELLIGENCE</span>
+            <span class="eyebrow">CAREER INTELLIGENCE</span>
 
-            <h2>
-                Make performance reviews
-                <br>
-                more <span>evidence-based.</span>
-            </h2>
+            <h2>Career Growth & Readiness</h2>
 
             <p>
-                PerformanceIQ combines goals, projects, feedback,
-                skills and business impact to create transparent
-                performance insights.
+                Explore possible career progression using defined role
+                criteria, demonstrated skills and performance evidence.
             </p>
         </div>
 
-        <button class="primary-btn" onclick="showSection('profile')">
-            View Employee Profiles →
-        </button>
+        <span class="badge blue-badge">
+            Human Review Required
+        </span>
 
     </div>
 
 
-    <!-- KPI CARDS -->
+    <!-- CAREER PROGRESSION -->
 
-    <div class="stats-grid">
-
-        <div class="stat-card">
-            <div class="stat-icon blue">48</div>
-
-            <div>
-                <span>Employees Analysed</span>
-                <strong>48</strong>
-                <small>↑ 12% this cycle</small>
-            </div>
-        </div>
-
-
-        <div class="stat-card">
-            <div class="stat-icon green">✓</div>
-
-            <div>
-                <span>Readiness Identified</span>
-                <strong>14</strong>
-                <small>Based on role criteria</small>
-            </div>
-        </div>
-
-
-        <div class="stat-card">
-            <div class="stat-icon orange">!</div>
-
-            <div>
-                <span>Development Gaps</span>
-                <strong>21</strong>
-                <small>Need attention</small>
-            </div>
-        </div>
-
-
-        <div class="stat-card">
-            <div class="stat-icon red">6</div>
-
-            <div>
-                <span>Review Flags</span>
-                <strong>6</strong>
-                <small>Evidence mismatch</small>
-            </div>
-        </div>
-
-    </div>
-
-
-    <!-- DASHBOARD GRID -->
-
-    <div class="dashboard-grid">
-
-        <div class="panel">
-
-            <div class="panel-header">
-
-                <div>
-                    <h3>Performance Overview</h3>
-                    <p>Average evidence score across review cycles</p>
-                </div>
-
-                <span class="badge green-badge">+8.4%</span>
-
-            </div>
-
-
-            <div class="chart">
-
-                <div class="chart-bars">
-
-                    <div class="bar" style="height:48%">
-                        <span>Q1</span>
-                    </div>
-
-                    <div class="bar" style="height:58%">
-                        <span>Q2</span>
-                    </div>
-
-                    <div class="bar" style="height:67%">
-                        <span>Q3</span>
-                    </div>
-
-                    <div class="bar active-bar" style="height:82%">
-                        <span>Q4</span>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="panel">
-
-            <div class="panel-header">
-
-                <div>
-                    <h3>Review Signals</h3>
-                    <p>Cases requiring human review</p>
-                </div>
-
-            </div>
-
-
-            <div class="signal">
-
-                <div class="signal-icon warning">!</div>
-
-                <div>
-                    <strong>Rating differs from evidence</strong>
-                    <small>3 employees</small>
-                </div>
-
-                <span>Review</span>
-
-            </div>
-
-
-            <div class="signal">
-
-                <div class="signal-icon purple">◈</div>
-
-                <div>
-                    <strong>Manager rating variation</strong>
-                    <small>2 managers</small>
-                </div>
-
-                <span>Review</span>
-
-            </div>
-
-
-            <div class="signal">
-
-                <div class="signal-icon blue">↗</div>
-
-                <div>
-                    <strong>Skill growth detected</strong>
-                    <small>8 employees</small>
-                </div>
-
-                <span>View</span>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- ================= EMPLOYEE PERFORMANCE RANKING ================= -->
-
-    <div class="panel ranking-card">
+    <div class="panel career-path-card">
 
         <div class="panel-header">
 
             <div>
-                <h3>Employee Performance Ranking</h3>
+                <h3>Career Progression Path</h3>
 
                 <p>
-                    Evidence-based comparison across key performance dimensions
+                    Evidence-based view of possible role progression
                 </p>
             </div>
 
-            <span class="badge blue-badge">
-                HR Review Support
+            <span class="career-status">
+                82% Readiness
             </span>
 
         </div>
 
 
-        <div class="ranking-table">
+        <div class="career-path">
 
-            <!-- TABLE HEADER -->
+            <div class="career-role current-role">
 
-            <div class="ranking-row ranking-header">
+                <span class="role-label">
+                    CURRENT ROLE
+                </span>
 
-                <span>Rank</span>
+                <div class="role-icon">
+                    01
+                </div>
 
-                <span>Employee</span>
+                <h3>
+                    Senior Software Engineer
+                </h3>
 
-                <span>Overall</span>
-
-                <span>Technical</span>
-
-                <span>Leadership</span>
-
-                <span>Communication</span>
-
-                <span>Business Impact</span>
-
-                <span>Readiness</span>
+                <p>
+                    Engineering
+                </p>
 
             </div>
 
 
-            <!-- RANK 1 -->
-
-            <div class="ranking-row">
-
-                <span class="rank-number">1</span>
-
-                <span class="ranking-employee">
-
-                    <strong>Rohan Mehta</strong>
-
-                    <small>
-                        Senior Developer • Technology
-                    </small>
-
-                </span>
-
-                <strong>93%</strong>
-
-                <span>95%</span>
-
-                <span>91%</span>
-
-                <span>94%</span>
-
-                <span>92%</span>
-
-                <span class="ranking-ready">
-                    High
-                </span>
-
+            <div class="career-arrow">
+                →
             </div>
 
 
-            <!-- RANK 2 -->
+            <div class="career-role next-role">
 
-            <div class="ranking-row">
-
-                <span class="rank-number">2</span>
-
-                <span class="ranking-employee">
-
-                    <strong>Meera Reddy</strong>
-
-                    <small>
-                        Senior Software Engineer • Product
-                    </small>
-
+                <span class="role-label">
+                    POTENTIAL NEXT ROLE
                 </span>
 
-                <strong>91%</strong>
+                <div class="role-icon">
+                    02
+                </div>
 
-                <span>92%</span>
+                <h3>
+                    Tech Lead
+                </h3>
 
-                <span>88%</span>
-
-                <span>93%</span>
-
-                <span>91%</span>
-
-                <span class="ranking-ready">
-                    High
-                </span>
+                <p>
+                    Engineering Leadership
+                </p>
 
             </div>
-
-
-            <!-- RANK 3 -->
-
-            <div class="ranking-row">
-
-                <span class="rank-number">3</span>
-
-                <span class="ranking-employee">
-
-                    <strong>Vikram Singh</strong>
-
-                    <small>
-                        Engineering Manager • Engineering
-                    </small>
-
-                </span>
-
-                <strong>89%</strong>
-
-                <span>90%</span>
-
-                <span>87%</span>
-
-                <span>89%</span>
-
-                <span>90%</span>
-
-                <span class="ranking-ready">
-                    High
-                </span>
-
-            </div>
-
-
-            <!-- RANK 4 -->
-
-            <div class="ranking-row">
-
-                <span class="rank-number">4</span>
-
-                <span class="ranking-employee">
-
-                    <strong>Ananya Sharma</strong>
-
-                    <small>
-                        Senior Software Engineer • Engineering
-                    </small>
-
-                </span>
-
-                <strong>87%</strong>
-
-                <span>92%</span>
-
-                <span>78%</span>
-
-                <span>86%</span>
-
-                <span>88%</span>
-
-                <span class="ranking-ready">
-                    High
-                </span>
-
-            </div>
-
-
-            <!-- RANK 5 -->
-
-            <div class="ranking-row">
-
-                <span class="rank-number">5</span>
-
-                <span class="ranking-employee">
-
-                    <strong>Kavya Nair</strong>
-
-                    <small>
-                        Data Analyst • Analytics
-                    </small>
-
-                </span>
-
-                <strong>84%</strong>
-
-                <span>86%</span>
-
-                <span>80%</span>
-
-                <span>84%</span>
-
-                <span>83%</span>
-
-                <span class="ranking-moderate">
-                    Moderate
-                </span>
-
-            </div>
-
-        </div>
-
-
-        <!-- RANKING FOOTER -->
-
-        <div class="ranking-footer">
-
-            <span>
-                Ranking supports HR analysis and review.
-                Final decisions remain with HR and management.
-            </span>
-
-            <button
-                class="secondary-btn"
-                onclick="showSection('profile')"
-            >
-                View Employee Profiles →
-            </button>
 
         </div>
 
     </div>
 
 
-    <!-- INTELLIGENCE PIPELINE -->
+    <!-- READINESS + EVIDENCE -->
 
-    <div class="panel intelligence-flow">
+    <div class="career-grid">
+
+
+        <!-- READINESS CRITERIA -->
+
+        <div class="panel">
+
+            <div class="panel-header">
+
+                <div>
+
+                    <h3>
+                        Readiness Criteria
+                    </h3>
+
+                    <p>
+                        Demonstrated capability against the potential next role
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="career-criterion">
+
+                <div class="criterion-info">
+
+                    <strong>
+                        Technical Excellence
+                    </strong>
+
+                    <span>
+                        92% demonstrated
+                    </span>
+
+                </div>
+
+                <div class="criterion-bar">
+
+                    <div style="width:92%"></div>
+
+                </div>
+
+                <small class="criterion-complete">
+                    Meets requirement
+                </small>
+
+            </div>
+
+
+            <div class="career-criterion">
+
+                <div class="criterion-info">
+
+                    <strong>
+                        Project Ownership
+                    </strong>
+
+                    <span>
+                        88% demonstrated
+                    </span>
+
+                </div>
+
+                <div class="criterion-bar">
+
+                    <div style="width:88%"></div>
+
+                </div>
+
+                <small class="criterion-complete">
+                    Meets requirement
+                </small>
+
+            </div>
+
+
+            <div class="career-criterion">
+
+                <div class="criterion-info">
+
+                    <strong>
+                        Business Impact
+                    </strong>
+
+                    <span>
+                        86% demonstrated
+                    </span>
+
+                </div>
+
+                <div class="criterion-bar">
+
+                    <div style="width:86%"></div>
+
+                </div>
+
+                <small class="criterion-complete">
+                    Meets requirement
+                </small>
+
+            </div>
+
+
+            <div class="career-criterion">
+
+                <div class="criterion-info">
+
+                    <strong>
+                        Team Leadership
+                    </strong>
+
+                    <span>
+                        64% demonstrated
+                    </span>
+
+                </div>
+
+                <div class="criterion-bar">
+
+                    <div style="width:64%"></div>
+
+                </div>
+
+                <small class="criterion-gap">
+                    Development needed
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <!-- EVIDENCE STILL NEEDED -->
+
+        <div class="panel">
+
+            <div class="panel-header">
+
+                <div>
+
+                    <h3>
+                        Evidence Still Needed
+                    </h3>
+
+                    <p>
+                        Additional evidence that may strengthen career readiness
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="evidence-needed">
+
+                <div class="evidence-number">
+                    01
+                </div>
+
+                <div>
+
+                    <strong>
+                        Team Leadership
+                    </strong>
+
+                    <p>
+                        Demonstrate ownership of a cross-functional
+                        initiative or mentor junior team members.
+                    </p>
+
+                    <span>
+                        Priority: High
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="evidence-needed">
+
+                <div class="evidence-number">
+                    02
+                </div>
+
+                <div>
+
+                    <strong>
+                        System Design
+                    </strong>
+
+                    <p>
+                        Provide architecture decisions and system-level
+                        design evidence from upcoming projects.
+                    </p>
+
+                    <span>
+                        Priority: Medium
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="evidence-needed">
+
+                <div class="evidence-number">
+                    03
+                </div>
+
+                <div>
+
+                    <strong>
+                        Stakeholder Management
+                    </strong>
+
+                    <p>
+                        Increase evidence of communication with
+                        product and business stakeholders.
+                    </p>
+
+                    <span>
+                        Priority: Medium
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- CAREER DEVELOPMENT ACTIONS -->
+
+    <div class="panel career-actions">
 
         <div class="panel-header">
 
             <div>
 
-                <h3>Performance Intelligence Pipeline</h3>
+                <h3>
+                    Suggested Growth Actions
+                </h3>
 
                 <p>
-                    How PerformanceIQ transforms evidence into actionable insights
+                    Development opportunities based on identified evidence gaps
                 </p>
 
             </div>
@@ -548,1723 +356,74 @@
         </div>
 
 
-        <div class="flow">
+        <div class="growth-list">
 
-            <div class="flow-step">
+            <div>
 
-                <div>01</div>
+                <span>
+                    Leadership
+                </span>
 
-                <strong>Evidence</strong>
-
-                <small>
-                    Goals • Projects • Feedback
-                </small>
-
-            </div>
-
-
-            <span class="arrow">→</span>
-
-
-            <div class="flow-step">
-
-                <div>02</div>
-
-                <strong>Skills</strong>
-
-                <small>
-                    Assess demonstrated capability
-                </small>
+                <strong>
+                    Lead a cross-functional project
+                </strong>
 
             </div>
 
 
-            <span class="arrow">→</span>
+            <div>
 
+                <span>
+                    System Design
+                </span>
 
-            <div class="flow-step">
-
-                <div>03</div>
-
-                <strong>Gap Analysis</strong>
-
-                <small>
-                    Identify development needs
-                </small>
+                <strong>
+                    Participate in an architecture initiative
+                </strong>
 
             </div>
 
 
-            <span class="arrow">→</span>
+            <div>
 
+                <span>
+                    Mentoring
+                </span>
 
-            <div class="flow-step">
-
-                <div>04</div>
-
-                <strong>Career Growth</strong>
-
-                <small>
-                    Support human decisions
-                </small>
+                <strong>
+                    Mentor a junior engineer
+                </strong>
 
             </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- HUMAN DECISION SUPPORT -->
+
+    <div class="explanation-card">
+
+        <div class="explain-icon">
+            HR
+        </div>
+
+        <div>
+
+            <h3>
+                Human Decision Support
+            </h3>
+
+            <p>
+                PerformanceIQ does not automatically decide whether an
+                employee should be promoted. It provides readiness evidence,
+                role criteria and development signals so managers and HR
+                can make informed career decisions.
+            </p>
 
         </div>
 
     </div>
 
 </section>
-
-
-        <!-- ================= PROFILE ================= -->
-
-        <section id="profile" class="section">
-
-            <div class="section-heading">
-
-                <div>
-                    <span class="eyebrow">EMPLOYEE INTELLIGENCE</span>
-
-                    <h2>Employee Performance Profile</h2>
-
-                    <p>
-                        Review individual performance using evidence from multiple sources.
-                    </p>
-                </div>
-
-                <select class="employee-select" onchange="changeEmployee(this.value)">
-
-                    <option value="ananya">Ananya Sharma</option>
-                    <option value="rahul">Rahul Kumar</option>
-                    <option value="meera">Meera Reddy</option>
-                    <option value="arjun">Arjun Patel</option>
-                    <option value="sneha">Sneha Rao</option>
-                    <option value="vikram">Vikram Singh</option>
-                    <option value="kavya">Kavya Nair</option>
-                    <option value="rohan">Rohan Mehta</option>
-                    <option value="divya">Divya Iyer</option>
-                    <option value="aditya">Aditya Verma</option>
-
-                </select>
-
-            </div>
-
-
-            <!-- EMPLOYEE DIRECTORY -->
-
-            <div class="panel employee-directory">
-
-                <div class="panel-header">
-
-                    <div>
-                        <h3>Employee Directory</h3>
-                        <p>Select an employee to view detailed performance evidence.</p>
-                    </div>
-
-                    <div class="directory-tools">
-
-                        <input
-                            type="text"
-                            id="employeeSearch"
-                            class="employee-search"
-                            placeholder="Search employee..."
-                            oninput="searchEmployees()"
-                        >
-
-                        <span class="directory-count">
-                            10 employees
-                        </span>
-
-                    </div>
-
-                </div>
-
-
-                <div class="employee-directory-grid">
-
-
-                    <div
-                        class="employee-directory-card selected"
-                        data-employee="ananya"
-                        data-name="Ananya Sharma"
-                        data-role="Senior Software Engineer"
-                        data-department="Engineering"
-                        onclick="openEmployee('ananya')"
-                    >
-
-                        <div class="directory-card-top">
-
-                            <div class="directory-avatar">AS</div>
-
-                            <span class="directory-status ready">
-                                Ready
-                            </span>
-
-                        </div>
-
-                        <h4>Ananya Sharma</h4>
-
-                        <p>Senior Software Engineer</p>
-
-                        <small>Engineering</small>
-
-                        <div class="directory-score">
-                            <span>Evidence Score</span>
-                            <strong>87%</strong>
-                        </div>
-
-                    </div>
-
-
-                    <div
-                        class="employee-directory-card"
-                        data-employee="rahul"
-                        data-name="Rahul Kumar"
-                        data-role="Software Engineer"
-                        data-department="Engineering"
-                        onclick="openEmployee('rahul')"
-                    >
-
-                        <div class="directory-card-top">
-
-                            <div class="directory-avatar">RK</div>
-
-                            <span class="directory-status development">
-                                Development
-                            </span>
-
-                        </div>
-
-                        <h4>Rahul Kumar</h4>
-
-                        <p>Software Engineer</p>
-
-                        <small>Engineering</small>
-
-                        <div class="directory-score">
-                            <span>Evidence Score</span>
-                            <strong>74%</strong>
-                        </div>
-
-                    </div>
-
-
-                    <div
-                        class="employee-directory-card"
-                        data-employee="meera"
-                        data-name="Meera Reddy"
-                        data-role="Senior Software Engineer"
-                        data-department="Product"
-                        onclick="openEmployee('meera')"
-                    >
-
-                        <div class="directory-card-top">
-
-                            <div class="directory-avatar">MR</div>
-
-                            <span class="directory-status ready">
-                                Ready
-                            </span>
-
-                        </div>
-
-                        <h4>Meera Reddy</h4>
-
-                        <p>Senior Software Engineer</p>
-
-                        <small>Product</small>
-
-                        <div class="directory-score">
-                            <span>Evidence Score</span>
-                            <strong>91%</strong>
-                        </div>
-
-                    </div>
-
-
-                    <div
-                        class="employee-directory-card"
-                        data-employee="arjun"
-                        data-name="Arjun Patel"
-                        data-role="Software Engineer"
-                        data-department="Platform"
-                        onclick="openEmployee('arjun')"
-                    >
-
-                        <div class="directory-card-top">
-
-                            <div class="directory-avatar">AP</div>
-
-                            <span class="directory-status strong">
-                                Strong
-                            </span>
-
-                        </div>
-
-                        <h4>Arjun Patel</h4>
-
-                        <p>Software Engineer</p>
-
-                        <small>Platform</small>
-
-                        <div class="directory-score">
-                            <span>Evidence Score</span>
-                            <strong>81%</strong>
-                        </div>
-
-                    </div>
-
-
-                    <div
-                        class="employee-directory-card"
-                        data-employee="sneha"
-                        data-name="Sneha Rao"
-                        data-role="Product Manager"
-                        data-department="Product"
-                        onclick="openEmployee('sneha')"
-                    >
-
-                        <div class="directory-card-top">
-
-                            <div class="directory-avatar">SR</div>
-
-                            <span class="directory-status development">
-                                Development
-                            </span>
-
-                        </div>
-
-                        <h4>Sneha Rao</h4>
-
-                        <p>Product Manager</p>
-
-                        <small>Product</small>
-
-                        <div class="directory-score">
-                            <span>Evidence Score</span>
-                            <strong>78%</strong>
-                        </div>
-
-                    </div>
-
-
-                    <div
-                        class="employee-directory-card"
-                        data-employee="vikram"
-                        data-name="Vikram Singh"
-                        data-role="Engineering Manager"
-                        data-department="Engineering"
-                        onclick="openEmployee('vikram')"
-                    >
-
-                        <div class="directory-card-top">
-
-                            <div class="directory-avatar">VS</div>
-
-                            <span class="directory-status strong">
-                                Strong
-                            </span>
-
-                        </div>
-
-                        <h4>Vikram Singh</h4>
-
-                        <p>Engineering Manager</p>
-
-                        <small>Engineering</small>
-
-                        <div class="directory-score">
-                            <span>Evidence Score</span>
-                            <strong>89%</strong>
-                        </div>
-
-                    </div>
-
-
-                    <div
-                        class="employee-directory-card"
-                        data-employee="kavya"
-                        data-name="Kavya Nair"
-                        data-role="Data Analyst"
-                        data-department="Analytics"
-                        onclick="openEmployee('kavya')"
-                    >
-
-                        <div class="directory-card-top">
-
-                            <div class="directory-avatar">KN</div>
-
-                            <span class="directory-status strong">
-                                Strong
-                            </span>
-
-                        </div>
-
-                        <h4>Kavya Nair</h4>
-
-                        <p>Data Analyst</p>
-
-                        <small>Analytics</small>
-
-                        <div class="directory-score">
-                            <span>Evidence Score</span>
-                            <strong>84%</strong>
-                        </div>
-
-                    </div>
-
-
-                    <div
-                        class="employee-directory-card"
-                        data-employee="rohan"
-                        data-name="Rohan Mehta"
-                        data-role="Senior Developer"
-                        data-department="Technology"
-                        onclick="openEmployee('rohan')"
-                    >
-
-                        <div class="directory-card-top">
-
-                            <div class="directory-avatar">RM</div>
-
-                            <span class="directory-status ready">
-                                Ready
-                            </span>
-
-                        </div>
-
-                        <h4>Rohan Mehta</h4>
-
-                        <p>Senior Developer</p>
-
-                        <small>Technology</small>
-
-                        <div class="directory-score">
-                            <span>Evidence Score</span>
-                            <strong>93%</strong>
-                        </div>
-
-                    </div>
-
-
-                    <div
-                        class="employee-directory-card"
-                        data-employee="divya"
-                        data-name="Divya Iyer"
-                        data-role="UX Designer"
-                        data-department="Design"
-                        onclick="openEmployee('divya')"
-                    >
-
-                        <div class="directory-card-top">
-
-                            <div class="directory-avatar">DI</div>
-
-                            <span class="directory-status development">
-                                Development
-                            </span>
-
-                        </div>
-
-                        <h4>Divya Iyer</h4>
-
-                        <p>UX Designer</p>
-
-                        <small>Design</small>
-
-                        <div class="directory-score">
-                            <span>Evidence Score</span>
-                            <strong>76%</strong>
-                        </div>
-
-                    </div>
-
-
-                    <div
-                        class="employee-directory-card"
-                        data-employee="aditya"
-                        data-name="Aditya Verma"
-                        data-role="Software Engineer"
-                        data-department="Engineering"
-                        onclick="openEmployee('aditya')"
-                    >
-
-                        <div class="directory-card-top">
-
-                            <div class="directory-avatar">AV</div>
-
-                            <span class="directory-status development">
-                                Development
-                            </span>
-
-                        </div>
-
-                        <h4>Aditya Verma</h4>
-
-                        <p>Software Engineer</p>
-
-                        <small>Engineering</small>
-
-                        <div class="directory-score">
-                            <span>Evidence Score</span>
-                            <strong>68%</strong>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- SELECTED EMPLOYEE -->
-
-            <div class="employee-header">
-
-                <div class="employee-avatar">AS</div>
-
-                <div>
-
-                    <h2 id="employeeName">
-                        Ananya Sharma
-                    </h2>
-
-                    <p>
-                        Senior Software Engineer • Engineering
-                    </p>
-
-                    <span class="status-pill ready">
-                        Promotion Ready
-                    </span>
-
-                </div>
-
-                <div class="employee-score">
-
-                    <span>Evidence Score</span>
-
-                    <strong id="employeeScore">
-                        87%
-                    </strong>
-
-                    <small>
-                        Based on 24 evidence items
-                    </small>
-
-                </div>
-
-            </div>
-
-
-            <!-- EVIDENCE -->
-
-            <div class="evidence-grid">
-
-                <div class="evidence-card">
-                    <span>Goals</span>
-                    <h3>Goal Achievement</h3>
-                    <strong>92%</strong>
-                    <p>11 of 12 goals achieved</p>
-                </div>
-
-                <div class="evidence-card">
-                    <span>Projects</span>
-                    <h3>Project Delivery</h3>
-                    <strong>88%</strong>
-                    <p>4 successful deliveries</p>
-                </div>
-
-                <div class="evidence-card">
-                    <span>Feedback</span>
-                    <h3>Peer Feedback</h3>
-                    <strong>4.5/5</strong>
-                    <p>18 peer responses</p>
-                </div>
-
-                <div class="evidence-card">
-                    <span>Training</span>
-                    <h3>Learning</h3>
-                    <strong>8</strong>
-                    <p>Courses completed</p>
-                </div>
-
-                <div class="evidence-card">
-                    <span>Impact</span>
-                    <h3>Business Impact</h3>
-                    <strong>+18%</strong>
-                    <p>Project efficiency</p>
-                </div>
-
-                <div class="evidence-card">
-                    <span>Attendance</span>
-                    <h3>Consistency</h3>
-                    <strong>96%</strong>
-                    <p>Excellent consistency</p>
-                </div>
-
-            </div>
-
-
-            <!-- AI SUMMARY -->
-
-            <div class="panel evidence-summary">
-
-                <div class="panel-header">
-
-                    <div>
-                        <h3>AI Evidence Summary</h3>
-                        <p>Generated from employee evidence</p>
-                    </div>
-
-                    <span class="ai-badge">
-                        AI Generated
-                    </span>
-
-                </div>
-
-
-                <div class="summary-box">
-
-                    <p>
-                        Ananya consistently exceeded project delivery targets,
-                        completed 8 relevant training programs and demonstrated
-                        measurable improvements in engineering efficiency.
-                        Peer feedback supports strong technical collaboration
-                        and problem-solving skills.
-                    </p>
-
-                    <div class="evidence-tags">
-                        <span>Goal G-104</span>
-                        <span>Project P-22</span>
-                        <span>Peer Feedback #18</span>
-                        <span>Training T-08</span>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= SKILLS ================= -->
-
-        <section id="skills" class="section">
-
-            <div class="section-heading">
-
-                <div>
-                    <span class="eyebrow">SKILL INTELLIGENCE</span>
-
-                    <h2>Skill Assessment</h2>
-
-                    <p>
-                        Compare demonstrated capability with expectations for the next role.
-                    </p>
-                </div>
-
-            </div>
-
-
-            <div class="skills-layout">
-
-                <div class="panel">
-
-                    <div class="panel-header">
-
-                        <div>
-                            <h3>Current vs Required Capability</h3>
-                            <p>Senior Software Engineer → Tech Lead</p>
-                        </div>
-
-                    </div>
-
-
-                    <div class="skill-row">
-
-                        <div>
-                            <strong>Java Development</strong>
-                            <small>Required: 85%</small>
-                        </div>
-
-                        <div class="skill-bar">
-                            <div style="width:92%"></div>
-                        </div>
-
-                        <strong>92%</strong>
-
-                    </div>
-
-
-                    <div class="skill-row">
-
-                        <div>
-                            <strong>System Design</strong>
-                            <small>Required: 85%</small>
-                        </div>
-
-                        <div class="skill-bar">
-                            <div style="width:72%"></div>
-                        </div>
-
-                        <strong>72%</strong>
-
-                    </div>
-
-
-                    <div class="skill-row">
-
-                        <div>
-                            <strong>Leadership</strong>
-                            <small>Required: 80%</small>
-                        </div>
-
-                        <div class="skill-bar">
-                            <div style="width:64%"></div>
-                        </div>
-
-                        <strong>64%</strong>
-
-                    </div>
-
-
-                    <div class="skill-row">
-
-                        <div>
-                            <strong>Communication</strong>
-                            <small>Required: 80%</small>
-                        </div>
-
-                        <div class="skill-bar">
-                            <div style="width:84%"></div>
-                        </div>
-
-                        <strong>84%</strong>
-
-                    </div>
-
-                </div>
-
-
-                <div class="panel">
-
-                    <div class="panel-header">
-
-                        <div>
-                            <h3>Capability Snapshot</h3>
-                            <p>Evidence-based skill position</p>
-                        </div>
-
-                    </div>
-
-                    <div class="growth-number">
-                        +16%
-                    </div>
-
-                    <p class="muted">
-                        Overall skill growth compared with the previous cycle.
-                    </p>
-
-                    <div class="growth-list">
-
-                        <div>
-                            <span>Technical Skills</span>
-                            <strong>+21%</strong>
-                        </div>
-
-                        <div>
-                            <span>Collaboration</span>
-                            <strong>+13%</strong>
-                        </div>
-
-                        <div>
-                            <span>Leadership</span>
-                            <strong>+10%</strong>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="panel">
-
-                <div class="panel-header">
-
-                    <div>
-                        <h3>Skill Gap Indicators</h3>
-                        <p>
-                            Areas where additional evidence or development may be useful.
-                        </p>
-                    </div>
-
-                </div>
-
-
-                <div class="growth-list">
-
-                    <div>
-                        <span>Java Development</span>
-                        <strong>92% • Above required</strong>
-                    </div>
-
-                    <div>
-                        <span>Communication</span>
-                        <strong>84% • Meets requirement</strong>
-                    </div>
-
-                    <div>
-                        <span>System Design</span>
-                        <strong>72% • 13% gap</strong>
-                    </div>
-
-                    <div>
-                        <span>Leadership</span>
-                        <strong>64% • 16% gap</strong>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= DEVELOPMENT ================= -->
-
-        <section id="development" class="section">
-
-            <div class="section-heading">
-
-                <div>
-                    <span class="eyebrow">DEVELOPMENT INTELLIGENCE</span>
-
-                    <h2>Development Gap Analysis</h2>
-
-                    <p>
-                        Convert identified capability gaps into measurable development actions.
-                    </p>
-                </div>
-
-            </div>
-
-
-            <div class="stats-grid">
-
-                <div class="stat-card">
-                    <div class="stat-icon orange">21</div>
-                    <div>
-                        <span>Active Development Gaps</span>
-                        <strong>21</strong>
-                        <small>Across 48 employees</small>
-                    </div>
-                </div>
-
-                <div class="stat-card">
-                    <div class="stat-icon red">8</div>
-                    <div>
-                        <span>High Priority</span>
-                        <strong>8</strong>
-                        <small>Require attention</small>
-                    </div>
-                </div>
-
-                <div class="stat-card">
-                    <div class="stat-icon blue">13</div>
-                    <div>
-                        <span>In Progress</span>
-                        <strong>13</strong>
-                        <small>Development plans active</small>
-                    </div>
-                </div>
-
-                <div class="stat-card">
-                    <div class="stat-icon green">9</div>
-                    <div>
-                        <span>Gaps Closed</span>
-                        <strong>9</strong>
-                        <small>This review cycle</small>
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div class="panel">
-
-                <div class="panel-header">
-
-                    <div>
-                        <h3>Development Roadmap</h3>
-                        <p>
-                            Priority gaps linked to evidence and recommended actions.
-                        </p>
-                    </div>
-
-                </div>
-
-
-                <div class="recommendation">
-
-                    <div class="rec-number">
-                        01
-                    </div>
-
-                    <div>
-                        <strong>System Design</strong>
-
-                        <p>
-                            Current capability is 72% against an 85% role requirement.
-                            More architecture and scalability evidence is needed.
-                        </p>
-
-                        <small>
-                            Evidence: Architecture exposure • Design decisions
-                        </small>
-                    </div>
-
-                    <span>
-                        13% Gap
-                    </span>
-
-                </div>
-
-
-                <div class="recommendation">
-
-                    <div class="rec-number">
-                        02
-                    </div>
-
-                    <div>
-                        <strong>Leadership</strong>
-
-                        <p>
-                            Current capability is 64% against an 80% role requirement.
-                            Leadership and mentoring evidence remains limited.
-                        </p>
-
-                        <small>
-                            Evidence: Mentoring • Team ownership
-                        </small>
-                    </div>
-
-                    <span>
-                        16% Gap
-                    </span>
-
-                </div>
-
-
-                <div class="recommendation">
-
-                    <div class="rec-number">
-                        03
-                    </div>
-
-                    <div>
-                        <strong>Cross-functional Collaboration</strong>
-
-                        <p>
-                            Increase collaboration evidence through projects involving
-                            engineering, product and business stakeholders.
-                        </p>
-
-                        <small>
-                            Evidence: Stakeholder feedback • Project outcomes
-                        </small>
-                    </div>
-
-                    <span>
-                        Monitor
-                    </span>
-
-                </div>
-
-            </div>
-
-
-            <div class="career-grid">
-
-                <div class="panel">
-
-                    <div class="panel-header">
-
-                        <div>
-                            <h3>Recommended Development Actions</h3>
-                            <p>Actions HR and managers can consider with the employee.</p>
-                        </div>
-
-                    </div>
-
-                    <div class="growth-list">
-
-                        <div>
-                            <span>System Design</span>
-                            <strong>Architecture workshop</strong>
-                        </div>
-
-                        <div>
-                            <span>Leadership</span>
-                            <strong>Lead a cross-functional project</strong>
-                        </div>
-
-                        <div>
-                            <span>Mentoring</span>
-                            <strong>Mentor a junior engineer</strong>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <div class="panel">
-
-                    <div class="panel-header">
-
-                        <div>
-                            <h3>Human Review</h3>
-                            <p>Development recommendations are not automatic decisions.</p>
-                        </div>
-
-                    </div>
-
-                    <div class="summary-box">
-
-                        <p>
-                            PerformanceIQ identifies evidence gaps and suggests
-                            development opportunities. Employees, managers and HR
-                            should agree on the appropriate development plan.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= CAREER ================= -->
-
-        <section id="career" class="section">
-
-            <div class="section-heading">
-
-                <div>
-                    <span class="eyebrow">CAREER INTELLIGENCE</span>
-
-                    <h2>Career Growth & Readiness</h2>
-
-                    <p>
-                        Explore possible career progression using defined role criteria and evidence.
-                    </p>
-                </div>
-
-            </div>
-
-
-            <div class="career-paths">
-
-                <div class="path">
-
-                    <span>Current Role</span>
-
-                    <strong>
-                        Senior Software Engineer
-                    </strong>
-
-                </div>
-
-
-                <div class="path-arrow">
-                    →
-                </div>
-
-
-                <div class="path recommended">
-
-                    <span>Potential Next Role</span>
-
-                    <strong>
-                        Tech Lead
-                    </strong>
-
-                </div>
-
-
-                <div class="path-arrow">
-                    →
-                </div>
-
-
-                <div class="path">
-
-                    <span>Long-Term Path</span>
-
-                    <strong>
-                        Engineering Manager
-                    </strong>
-
-                </div>
-
-            </div>
-
-
-            <div class="career-grid">
-
-
-                <div class="promotion-card">
-
-                    <span class="ai-badge">
-                        READINESS ANALYSIS
-                    </span>
-
-                    <h2>
-                        Tech Lead Readiness
-                    </h2>
-
-                    <div class="readiness">
-
-                        <div class="circle">
-                            82%
-                        </div>
-
-                        <div>
-
-                            <strong>
-                                Criteria with supporting evidence
-                            </strong>
-
-                            <p>
-                                Most defined criteria have supporting evidence.
-                                Additional leadership evidence is still needed.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                    <button class="primary-btn">
-                        View Readiness Details
-                    </button>
-
-                </div>
-
-
-                <div class="panel criteria">
-
-                    <h3>
-                        Readiness Criteria
-                    </h3>
-
-
-                    <div class="criterion">
-
-                        <span class="check">
-                            ✓
-                        </span>
-
-                        <div>
-
-                            <strong>
-                                Technical excellence
-                            </strong>
-
-                            <small>
-                                Evidence found
-                            </small>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="criterion">
-
-                        <span class="check">
-                            ✓
-                        </span>
-
-                        <div>
-
-                            <strong>
-                                Project ownership
-                            </strong>
-
-                            <small>
-                                Evidence found
-                            </small>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="criterion">
-
-                        <span class="check">
-                            ✓
-                        </span>
-
-                        <div>
-
-                            <strong>
-                                Business impact
-                            </strong>
-
-                            <small>
-                                Evidence found
-                            </small>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="criterion">
-
-                        <span class="pending">
-                            !
-                        </span>
-
-                        <div>
-
-                            <strong>
-                                Team leadership
-                            </strong>
-
-                            <small>
-                                Additional evidence required
-                            </small>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="panel">
-
-                <div class="panel-header">
-
-                    <div>
-
-                        <h3>
-                            Evidence Still Needed
-                        </h3>
-
-                        <p>
-                            Evidence HR and managers may consider during the next review cycle.
-                        </p>
-
-                    </div>
-
-                </div>
-
-
-                <div class="growth-list">
-
-                    <div>
-                        <span>Team Leadership</span>
-                        <strong>Lead 1 cross-functional initiative</strong>
-                    </div>
-
-                    <div>
-                        <span>Mentoring</span>
-                        <strong>Document coaching of junior engineers</strong>
-                    </div>
-
-                    <div>
-                        <span>Architecture</span>
-                        <strong>Own a system-design decision</strong>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="explanation-card">
-
-                <div class="explain-icon">
-                    i
-                </div>
-
-                <div>
-
-                    <h3>
-                        Human Decision Support
-                    </h3>
-
-                    <p>
-                        PerformanceIQ does not automatically decide whether an employee
-                        should be promoted. It provides readiness evidence, role criteria
-                        and development signals so managers and HR can make informed
-                        career decisions.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= CONSISTENCY ================= -->
-
-        <section id="consistency" class="section">
-
-            <div class="section-heading">
-
-                <div>
-
-                    <span class="eyebrow">
-                        FAIRNESS ANALYSIS
-                    </span>
-
-                    <h2>
-                        Evaluation Consistency
-                    </h2>
-
-                    <p>
-                        Identify differences between manager ratings and available evidence.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="consistency-alert">
-
-                <div class="alert-icon">
-                    !
-                </div>
-
-                <div>
-
-                    <strong>
-                        6 evaluations require review
-                    </strong>
-
-                    <p>
-                        Potential evaluation inconsistencies were detected between
-                        manager ratings and evidence-based indicators.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="panel">
-
-                <div class="panel-header">
-
-                    <div>
-
-                        <h3>
-                            Manager Evaluation Patterns
-                        </h3>
-
-                        <p>
-                            Evidence score compared with manager rating.
-                        </p>
-
-                    </div>
-
-                </div>
-
-
-                <div class="manager-table">
-
-                    <div class="table-row table-head">
-
-                        <span>Manager</span>
-                        <span>Employees</span>
-                        <span>Manager Rating</span>
-                        <span>Evidence Score</span>
-                        <span>Difference</span>
-                        <span>Status</span>
-
-                    </div>
-
-
-                    <div class="table-row">
-
-                        <span>
-                            <strong>Priya N.</strong>
-                        </span>
-
-                        <span>12</span>
-
-                        <span>4.6 / 5</span>
-
-                        <span>4.4 / 5</span>
-
-                        <span>+0.2</span>
-
-                        <span class="status-ok">
-                            Consistent
-                        </span>
-
-                    </div>
-
-
-                    <div class="table-row">
-
-                        <span>
-                            <strong>Arjun K.</strong>
-                        </span>
-
-                        <span>10</span>
-
-                        <span>3.7 / 5</span>
-
-                        <span>4.3 / 5</span>
-
-                        <span class="variance-high">
-                            -0.6
-                        </span>
-
-                        <span class="status-review">
-                            Review
-                        </span>
-
-                    </div>
-
-
-                    <div class="table-row">
-
-                        <span>
-                            <strong>Meera R.</strong>
-                        </span>
-
-                        <span>14</span>
-
-                        <span>4.5 / 5</span>
-
-                        <span>4.4 / 5</span>
-
-                        <span>+0.1</span>
-
-                        <span class="status-ok">
-                            Consistent
-                        </span>
-
-                    </div>
-
-
-                    <div class="table-row">
-
-                        <span>
-                            <strong>Vikram S.</strong>
-                        </span>
-
-                        <span>12</span>
-
-                        <span>4.8 / 5</span>
-
-                        <span>4.1 / 5</span>
-
-                        <span class="variance-high">
-                            +0.7
-                        </span>
-
-                        <span class="status-review">
-                            Review
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="explanation-card">
-
-                <div class="explain-icon">
-                    i
-                </div>
-
-                <div>
-
-                    <h3>
-                        Human Review Required
-                    </h3>
-
-                    <p>
-                        PerformanceIQ does not decide whether an employee should
-                        receive a particular rating or promotion. It highlights
-                        differences between evaluation inputs and available
-                        evidence so HR and managers can investigate and calibrate
-                        the review process.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= CALIBRATION ================= -->
-
-        <section id="calibration" class="section">
-
-            <div class="section-heading">
-
-                <div>
-
-                    <span class="eyebrow">
-                        HR CALIBRATION
-                    </span>
-
-                    <h2>
-                        Review & Calibration Dashboard
-                    </h2>
-
-                    <p>
-                        A transparent view of evaluation patterns and pending HR actions.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <!-- HR PROFILE -->
-
-            <div class="panel">
-
-                <div class="panel-header">
-
-                    <div>
-
-                        <h3>
-                            HR Manager Workspace
-                        </h3>
-
-                        <p>
-                            People & Culture • 2026 Annual Review Cycle
-                        </p>
-
-                    </div>
-
-                    <span class="directory-status ready">
-                        Active
-                    </span>
-
-                </div>
-
-
-                <div class="growth-list">
-
-                    <div>
-                        <span>HR Manager</span>
-                        <strong>Priya Reddy</strong>
-                    </div>
-
-                    <div>
-                        <span>Employees</span>
-                        <strong>48</strong>
-                    </div>
-
-                    <div>
-                        <span>Reviews Completed</span>
-                        <strong>42</strong>
-                    </div>
-
-                    <div>
-                        <span>Pending Calibration</span>
-                        <strong>6</strong>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="calibration-grid">
-
-
-                <div class="panel">
-
-                    <div class="panel-header">
-
-                        <h3>
-                            Rating Distribution
-                        </h3>
-
-                    </div>
-
-
-                    <div class="distribution">
-
-
-                        <div>
-
-                            <span>5.0</span>
-
-                            <div class="distribution-bar">
-                                <div style="width:70%"></div>
-                            </div>
-
-                            <strong>18%</strong>
-
-                        </div>
-
-
-                        <div>
-
-                            <span>4.0</span>
-
-                            <div class="distribution-bar">
-                                <div style="width:92%"></div>
-                            </div>
-
-                            <strong>42%</strong>
-
-                        </div>
-
-
-                        <div>
-
-                            <span>3.0</span>
-
-                            <div class="distribution-bar">
-                                <div style="width:65%"></div>
-                            </div>
-
-                            <strong>29%</strong>
-
-                        </div>
-
-
-                        <div>
-
-                            <span>2.0</span>
-
-                            <div class="distribution-bar">
-                                <div style="width:25%"></div>
-                            </div>
-
-                            <strong>9%</strong>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <div class="panel audit">
-
-                    <div class="panel-header">
-
-                        <h3>
-                            Audit Trail
-                        </h3>
-
-                    </div>
-
-
-                    <div class="audit-item">
-
-                        <span>
-                            Today
-                        </span>
-
-                        <p>
-                            HR reviewed Arjun K. evaluation
-                        </p>
-
-                    </div>
-
-
-                    <div class="audit-item">
-
-                        <span>
-                            Yesterday
-                        </span>
-
-                        <p>
-                            Manager rating updated for Employee #104
-                        </p>
-
-                    </div>
-
-
-                    <div class="audit-item">
-
-                        <span>
-                            Sep 27
-                        </span>
-
-                        <p>
-                            Evidence profile generated for Meera R.
-                        </p>
-
-                    </div>
-
-
-                    <div class="audit-item">
-
-                        <span>
-                            Sep 25
-                        </span>
-
-                        <p>
-                            New training records imported
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="calibration-message">
-
-                <span>
-                    ✓
-                </span>
-
-                <div>
-
-                    <strong>
-                        Human decision remains in control
-                    </strong>
-
-                    <p>
-                        AI provides evidence, patterns and recommendations.
-                        Final performance and career decisions remain with
-                        managers and HR.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-</div>
-
-
-<script src="script.js"></script>
-
-</body>
-</html>
