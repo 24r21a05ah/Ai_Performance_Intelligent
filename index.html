@@ -113,242 +113,508 @@
         </header>
 
 
-        <!-- ================= DASHBOARD ================= -->
+      <!-- ================= DASHBOARD ================= -->
 
-        <section id="dashboard" class="section active-section">
+<section id="dashboard" class="section active-section">
 
-            <div class="welcome">
+    <div class="welcome">
+
+        <div>
+            <span class="eyebrow">AI PERFORMANCE INTELLIGENCE</span>
+
+            <h2>
+                Make performance reviews
+                <br>
+                more <span>evidence-based.</span>
+            </h2>
+
+            <p>
+                PerformanceIQ combines goals, projects, feedback,
+                skills and business impact to create transparent
+                performance insights.
+            </p>
+        </div>
+
+        <button class="primary-btn" onclick="showSection('profile')">
+            View Employee Profiles →
+        </button>
+
+    </div>
+
+
+    <!-- KPI CARDS -->
+
+    <div class="stats-grid">
+
+        <div class="stat-card">
+            <div class="stat-icon blue">48</div>
+
+            <div>
+                <span>Employees Analysed</span>
+                <strong>48</strong>
+                <small>↑ 12% this cycle</small>
+            </div>
+        </div>
+
+
+        <div class="stat-card">
+            <div class="stat-icon green">✓</div>
+
+            <div>
+                <span>Readiness Identified</span>
+                <strong>14</strong>
+                <small>Based on role criteria</small>
+            </div>
+        </div>
+
+
+        <div class="stat-card">
+            <div class="stat-icon orange">!</div>
+
+            <div>
+                <span>Development Gaps</span>
+                <strong>21</strong>
+                <small>Need attention</small>
+            </div>
+        </div>
+
+
+        <div class="stat-card">
+            <div class="stat-icon red">6</div>
+
+            <div>
+                <span>Review Flags</span>
+                <strong>6</strong>
+                <small>Evidence mismatch</small>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- DASHBOARD GRID -->
+
+    <div class="dashboard-grid">
+
+        <div class="panel">
+
+            <div class="panel-header">
 
                 <div>
-                    <span class="eyebrow">AI PERFORMANCE INTELLIGENCE</span>
-
-                    <h2>
-                        Make performance reviews
-                        <br>
-                        more <span>evidence-based.</span>
-                    </h2>
-
-                    <p>
-                        PerformanceIQ combines goals, projects, feedback,
-                        skills and business impact to create transparent
-                        performance insights.
-                    </p>
+                    <h3>Performance Overview</h3>
+                    <p>Average evidence score across review cycles</p>
                 </div>
 
-                <button class="primary-btn" onclick="showSection('profile')">
-                    View Employee Profiles →
-                </button>
+                <span class="badge green-badge">+8.4%</span>
 
             </div>
 
 
-            <!-- KPI CARDS -->
+            <div class="chart">
 
-            <div class="stats-grid">
+                <div class="chart-bars">
 
-                <div class="stat-card">
-                    <div class="stat-icon blue">48</div>
-
-                    <div>
-                        <span>Employees Analysed</span>
-                        <strong>48</strong>
-                        <small>↑ 12% this cycle</small>
-                    </div>
-                </div>
-
-
-                <div class="stat-card">
-                    <div class="stat-icon green">✓</div>
-
-                    <div>
-                        <span>Readiness Identified</span>
-                        <strong>14</strong>
-                        <small>Based on role criteria</small>
-                    </div>
-                </div>
-
-
-                <div class="stat-card">
-                    <div class="stat-icon orange">!</div>
-
-                    <div>
-                        <span>Development Gaps</span>
-                        <strong>21</strong>
-                        <small>Need attention</small>
-                    </div>
-                </div>
-
-
-                <div class="stat-card">
-                    <div class="stat-icon red">6</div>
-
-                    <div>
-                        <span>Review Flags</span>
-                        <strong>6</strong>
-                        <small>Evidence mismatch</small>
-                    </div>
-                </div>
-
-            </div>
-
-
-            <!-- DASHBOARD GRID -->
-
-            <div class="dashboard-grid">
-
-                <div class="panel">
-
-                    <div class="panel-header">
-
-                        <div>
-                            <h3>Performance Overview</h3>
-                            <p>Average evidence score across review cycles</p>
-                        </div>
-
-                        <span class="badge green-badge">+8.4%</span>
-
+                    <div class="bar" style="height:48%">
+                        <span>Q1</span>
                     </div>
 
-
-                    <div class="chart">
-
-                        <div class="chart-bars">
-
-                            <div class="bar" style="height:48%">
-                                <span>Q1</span>
-                            </div>
-
-                            <div class="bar" style="height:58%">
-                                <span>Q2</span>
-                            </div>
-
-                            <div class="bar" style="height:67%">
-                                <span>Q3</span>
-                            </div>
-
-                            <div class="bar active-bar" style="height:82%">
-                                <span>Q4</span>
-                            </div>
-
-                        </div>
-
+                    <div class="bar" style="height:58%">
+                        <span>Q2</span>
                     </div>
 
-                </div>
-
-
-                <div class="panel">
-
-                    <div class="panel-header">
-
-                        <div>
-                            <h3>Review Signals</h3>
-                            <p>Cases requiring human review</p>
-                        </div>
-
+                    <div class="bar" style="height:67%">
+                        <span>Q3</span>
                     </div>
 
-
-                    <div class="signal">
-
-                        <div class="signal-icon warning">!</div>
-
-                        <div>
-                            <strong>Rating differs from evidence</strong>
-                            <small>3 employees</small>
-                        </div>
-
-                        <span>Review</span>
-
-                    </div>
-
-
-                    <div class="signal">
-
-                        <div class="signal-icon purple">◈</div>
-
-                        <div>
-                            <strong>Manager rating variation</strong>
-                            <small>2 managers</small>
-                        </div>
-
-                        <span>Review</span>
-
-                    </div>
-
-
-                    <div class="signal">
-
-                        <div class="signal-icon blue">↗</div>
-
-                        <div>
-                            <strong>Skill growth detected</strong>
-                            <small>8 employees</small>
-                        </div>
-
-                        <span>View</span>
-
+                    <div class="bar active-bar" style="height:82%">
+                        <span>Q4</span>
                     </div>
 
                 </div>
 
             </div>
 
-
-            <!-- INTELLIGENCE PIPELINE -->
-
-            <div class="panel intelligence-flow">
-
-                <div class="panel-header">
-
-                    <div>
-                        <h3>Performance Intelligence Pipeline</h3>
-
-                        <p>
-                            How PerformanceIQ transforms evidence into actionable insights
-                        </p>
-                    </div>
-
-                </div>
+        </div>
 
 
-                <div class="flow">
+        <div class="panel">
 
-                    <div class="flow-step">
-                        <div>01</div>
-                        <strong>Evidence</strong>
-                        <small>Goals • Projects • Feedback</small>
-                    </div>
+            <div class="panel-header">
 
-                    <span class="arrow">→</span>
-
-                    <div class="flow-step">
-                        <div>02</div>
-                        <strong>Skills</strong>
-                        <small>Assess demonstrated capability</small>
-                    </div>
-
-                    <span class="arrow">→</span>
-
-                    <div class="flow-step">
-                        <div>03</div>
-                        <strong>Gap Analysis</strong>
-                        <small>Identify development needs</small>
-                    </div>
-
-                    <span class="arrow">→</span>
-
-                    <div class="flow-step">
-                        <div>04</div>
-                        <strong>Career Growth</strong>
-                        <small>Support human decisions</small>
-                    </div>
-
+                <div>
+                    <h3>Review Signals</h3>
+                    <p>Cases requiring human review</p>
                 </div>
 
             </div>
 
-        </section>
+
+            <div class="signal">
+
+                <div class="signal-icon warning">!</div>
+
+                <div>
+                    <strong>Rating differs from evidence</strong>
+                    <small>3 employees</small>
+                </div>
+
+                <span>Review</span>
+
+            </div>
+
+
+            <div class="signal">
+
+                <div class="signal-icon purple">◈</div>
+
+                <div>
+                    <strong>Manager rating variation</strong>
+                    <small>2 managers</small>
+                </div>
+
+                <span>Review</span>
+
+            </div>
+
+
+            <div class="signal">
+
+                <div class="signal-icon blue">↗</div>
+
+                <div>
+                    <strong>Skill growth detected</strong>
+                    <small>8 employees</small>
+                </div>
+
+                <span>View</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= EMPLOYEE PERFORMANCE RANKING ================= -->
+
+    <div class="panel ranking-card">
+
+        <div class="panel-header">
+
+            <div>
+                <h3>Employee Performance Ranking</h3>
+
+                <p>
+                    Evidence-based comparison across key performance dimensions
+                </p>
+            </div>
+
+            <span class="badge blue-badge">
+                HR Review Support
+            </span>
+
+        </div>
+
+
+        <div class="ranking-table">
+
+            <!-- TABLE HEADER -->
+
+            <div class="ranking-row ranking-header">
+
+                <span>Rank</span>
+
+                <span>Employee</span>
+
+                <span>Overall</span>
+
+                <span>Technical</span>
+
+                <span>Leadership</span>
+
+                <span>Communication</span>
+
+                <span>Business Impact</span>
+
+                <span>Readiness</span>
+
+            </div>
+
+
+            <!-- RANK 1 -->
+
+            <div class="ranking-row">
+
+                <span class="rank-number">1</span>
+
+                <span class="ranking-employee">
+
+                    <strong>Rohan Mehta</strong>
+
+                    <small>
+                        Senior Developer • Technology
+                    </small>
+
+                </span>
+
+                <strong>93%</strong>
+
+                <span>95%</span>
+
+                <span>91%</span>
+
+                <span>94%</span>
+
+                <span>92%</span>
+
+                <span class="ranking-ready">
+                    High
+                </span>
+
+            </div>
+
+
+            <!-- RANK 2 -->
+
+            <div class="ranking-row">
+
+                <span class="rank-number">2</span>
+
+                <span class="ranking-employee">
+
+                    <strong>Meera Reddy</strong>
+
+                    <small>
+                        Senior Software Engineer • Product
+                    </small>
+
+                </span>
+
+                <strong>91%</strong>
+
+                <span>92%</span>
+
+                <span>88%</span>
+
+                <span>93%</span>
+
+                <span>91%</span>
+
+                <span class="ranking-ready">
+                    High
+                </span>
+
+            </div>
+
+
+            <!-- RANK 3 -->
+
+            <div class="ranking-row">
+
+                <span class="rank-number">3</span>
+
+                <span class="ranking-employee">
+
+                    <strong>Vikram Singh</strong>
+
+                    <small>
+                        Engineering Manager • Engineering
+                    </small>
+
+                </span>
+
+                <strong>89%</strong>
+
+                <span>90%</span>
+
+                <span>87%</span>
+
+                <span>89%</span>
+
+                <span>90%</span>
+
+                <span class="ranking-ready">
+                    High
+                </span>
+
+            </div>
+
+
+            <!-- RANK 4 -->
+
+            <div class="ranking-row">
+
+                <span class="rank-number">4</span>
+
+                <span class="ranking-employee">
+
+                    <strong>Ananya Sharma</strong>
+
+                    <small>
+                        Senior Software Engineer • Engineering
+                    </small>
+
+                </span>
+
+                <strong>87%</strong>
+
+                <span>92%</span>
+
+                <span>78%</span>
+
+                <span>86%</span>
+
+                <span>88%</span>
+
+                <span class="ranking-ready">
+                    High
+                </span>
+
+            </div>
+
+
+            <!-- RANK 5 -->
+
+            <div class="ranking-row">
+
+                <span class="rank-number">5</span>
+
+                <span class="ranking-employee">
+
+                    <strong>Kavya Nair</strong>
+
+                    <small>
+                        Data Analyst • Analytics
+                    </small>
+
+                </span>
+
+                <strong>84%</strong>
+
+                <span>86%</span>
+
+                <span>80%</span>
+
+                <span>84%</span>
+
+                <span>83%</span>
+
+                <span class="ranking-moderate">
+                    Moderate
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- RANKING FOOTER -->
+
+        <div class="ranking-footer">
+
+            <span>
+                Ranking supports HR analysis and review.
+                Final decisions remain with HR and management.
+            </span>
+
+            <button
+                class="secondary-btn"
+                onclick="showSection('profile')"
+            >
+                View Employee Profiles →
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- INTELLIGENCE PIPELINE -->
+
+    <div class="panel intelligence-flow">
+
+        <div class="panel-header">
+
+            <div>
+
+                <h3>Performance Intelligence Pipeline</h3>
+
+                <p>
+                    How PerformanceIQ transforms evidence into actionable insights
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="flow">
+
+            <div class="flow-step">
+
+                <div>01</div>
+
+                <strong>Evidence</strong>
+
+                <small>
+                    Goals • Projects • Feedback
+                </small>
+
+            </div>
+
+
+            <span class="arrow">→</span>
+
+
+            <div class="flow-step">
+
+                <div>02</div>
+
+                <strong>Skills</strong>
+
+                <small>
+                    Assess demonstrated capability
+                </small>
+
+            </div>
+
+
+            <span class="arrow">→</span>
+
+
+            <div class="flow-step">
+
+                <div>03</div>
+
+                <strong>Gap Analysis</strong>
+
+                <small>
+                    Identify development needs
+                </small>
+
+            </div>
+
+
+            <span class="arrow">→</span>
+
+
+            <div class="flow-step">
+
+                <div>04</div>
+
+                <strong>Career Growth</strong>
+
+                <small>
+                    Support human decisions
+                </small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 
         <!-- ================= PROFILE ================= -->
